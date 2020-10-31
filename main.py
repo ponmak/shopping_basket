@@ -2,9 +2,10 @@ price = {"Soap": 90.00, "washing powder": 150.00,
 "Drinking water": 60.00, "Toothbrush": 30.00, "Toothpaste": 45.00,"Baby powder": 100.00,
 "Noodle" : 10.00,"Rice": 450.00,"Vegetable oil" :50.00,"Shampoo" : 290.00 }
 shopping_basket = {}
-#เปลี่ยนตัวแปรตรงนี่
+costumer_name = input("costumer Name : ")
+
 print ("Welcome to the ponmak store!\n1. Soap : 90.00 \n2.washing powder : 150.00\n3. Drinking water : 60.00\n4. Toothbrush : 30.00\n5.Toothpaste: 45.00\n6.Baby powder: 100.00\n7.Noodle : 10.00\n8.Rice: 450.00\n9.Vegetable oil :50.00\n10.Shampoo : 290.00 ")
-#เปลี่ยนชื่อตรงนี่
+
 buy_another_flag = 1
 total_cost, total = 0, 0
 
